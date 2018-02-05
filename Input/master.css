@@ -1,0 +1,23 @@
+input{
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-right: 50px;
+    border-radius:2px; 
+}
+
+input:focus{
+    border-color: #C3ECFC;
+}
+
+input:disabled{
+    background:lightgray
+}
+
+input:valid{
+    border-color: #42CD95;
+}
+
+input:invalid{
+    border-color: #EE4266;
+}
